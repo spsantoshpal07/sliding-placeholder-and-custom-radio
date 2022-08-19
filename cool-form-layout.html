@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cool-form-layout.css">
+    <title>Cool Form Layout</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div>
+                <h3 class="heading heading-color-green-gradient">Subscribe Now!</h3>
+            </div>
+
+            <form action="#" class="form">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" placeholder="Full Name" required>
+                    <label for="name" class="form-label">Full Name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-input" id="email" placeholder="Email" required>
+                    <label for="email" class="form-label">Email</label>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-radio">
+                        <input type="radio" class="form-input-radio" id="daily" name="frequency">
+                        <label for="daily" class="form-label-radio">
+                            <span class="custom-radio-button"></span>
+                            Daily
+                        </label>
+                    </div>
+
+                    <div class="form-radio">
+                        <input type="radio" class="form-input-radio" id="weekly" name="frequency">
+                        <label for="weekly" class="form-label-radio">
+                            <span class="custom-radio-button"></span>
+                            Weekly
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn subscribe-now-btn btn-green">Subscribe !!</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
